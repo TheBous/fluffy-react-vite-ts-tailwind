@@ -1,3 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.test {
+	background:
+		radial-gradient(122.6% 193.56% at 100% 100%, rgba(0, 240, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%)
+			/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+		linear-gradient(241.17deg, #111111 0.89%, rgba(23, 23, 23, 0) 90.72%),
+		radial-gradient(84.57% 84.57% at 2.16% 2.61%, rgba(172, 253, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%)
+			/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
