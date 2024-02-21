@@ -6,3 +6,8 @@
 		radial-gradient(84.57% 84.57% at 2.16% 2.61%, rgba(172, 253, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%)
 			/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 }
+
+.my-box {
+	box-shadow: 0px 4px 20px 0px #ffffff80;
+	border-radius: 20px;
+}
