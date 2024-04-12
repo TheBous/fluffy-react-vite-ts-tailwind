@@ -15,7 +15,7 @@ const Chip = ({ selected = false, onClick = () => null }: ChipProps) => {
 			})}
 			onClick={onClick}
 		>
-			<Avatar src="https://placehold.co/600x400/EEE/31343C" alt="avatar" />
+			<Avatar width={40} src="https://placehold.co/600x400/EEE/31343C" alt="avatar" />
 			<span className="mr-auto">Name</span>
 			<span>988</span>
 		</div>
