@@ -14,7 +14,7 @@ import globals from "globals";
 
 export default [
     {
-        ignores: ["**/dist/**", "src/main.tsx"],
+        ignores: ["**/dist/**", "src/main.tsx", "vite.config.ts"],
     },
     js.configs.recommended,
     {
@@ -165,6 +165,7 @@ export default [
             // Added this so test files don't give error when accessing DOM elements using DOM API
             "testing-library/no-node-access": "off",
             // TypeScript-specific rules
+            "no-unused-vars": "off",
             "@typescript-eslint/no-unused-vars": "error",
             "@typescript-eslint/explicit-function-return-type": "off",
         },
