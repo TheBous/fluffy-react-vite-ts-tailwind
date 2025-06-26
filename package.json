@@ -39,7 +39,7 @@
 		"tailwindcss": "^3.4.17",
 		"ts-loader": "^9.5.2",
 		"typescript": "^5.7.3",
-		"vite": "^6.0.7"
+		"vite": "^7.0.0"
 	},
 	"name": "fluffy-react-vite-ts-tailwind",
 	"private": true,
